@@ -46,6 +46,7 @@ const App = () => {
     await axios.post("http://localhost:3001/todos/", {
       name: taskName,
     });
+    setTaskName("");
     getTodos();
   };
 

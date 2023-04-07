@@ -6,6 +6,7 @@
     height: 50%;
     border: 1px solid black;
     overflow: hidden;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 .apart {
