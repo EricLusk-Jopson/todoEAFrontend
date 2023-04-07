@@ -79,7 +79,9 @@ const App = () => {
     <div className="App">
       <div className="apart">
         <h1>Marvelous v2.0</h1>
-        <button onClick={onDeleteClick}>Delete all tasks</button>
+        <button className="textbutton" onClick={onDeleteClick}>
+          Delete all tasks
+        </button>
       </div>
       <div className="apart">
         <span>

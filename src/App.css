@@ -17,7 +17,29 @@
     margin: 0 10%;
 }
 
+input {
+  border-radius: 3px;
+  border: 1px solid grey;
 
+}
+
+button {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  background-color: rgb(207,226,243);
+}
+
+.textbutton {
+  border: none;
+  background-color: unset;
+  color: blue;
+}
+
+.textbutton:hover {
+  text-decoration: underline;
+}
 
 .list {
     height: 10em;
